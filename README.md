@@ -54,4 +54,6 @@ Log out:
 # Software Requirements:
 The project is curated using the following for front end and back end-
 •	For Front-End: HTML, Bootstrap, Python , CSS, JavaScript.
-•	For Back-End:PHP,MYSQL.
+•	For Back-End:PHP,Mysql. 
+
+#  By Ishika Sharma and Anagha Rai. 
