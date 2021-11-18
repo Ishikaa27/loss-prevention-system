@@ -1,10 +1,10 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
       <title>AIR Login and Signup</title>
-      <link rel="stylesheet" href="login.css">
+      <link rel="stylesheet" href="logstyle.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <body>
@@ -30,7 +30,7 @@
                <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
-               <form action="#" class="login">
+               <form action="logindetails.php" class="login" method="POST">
                   <div class="field">
                      <input type="text" placeholder="Username" name="username" required>
                   </div>
@@ -41,15 +41,16 @@
                     <a href="#">Forgot password?</a>
                   </div>-->
                   <div class="field btn">
-                     <a href="dashboard.html"><button class="btn" type="button">login</button></a>
-                     <!-- <a href="dashboard.html"><div class="btn-layer"></div> -->
+                     <input type="submit" name="login" id="login" value="login">
+                     <!-- <button class="btn" type="button">login</button>
+                     <a href="dashboard.html"><div class="btn-layer"></div> -->
                      <!-- <input type="submit" value="Login"></a> -->
                   </div>
                   <div class="signup-link">
                      Not a member? <a href="">Signup now</a>
                   </div>
                </form>
-               <form action="#" class="signup">
+               <form action="signupdetails.php" class="signup" method="POST">
 
                 <div class="field">
                     <input type="text" placeholder="Username" name="username" required>
@@ -72,7 +73,8 @@
                   <div class="field btn">
                      <!-- <div class="btn-layer"></div> -->
                      <!-- <input type="submit" value="Signup"></a> -->
-                     <a href="dashboard.html"><button class="btn" type="button"> Signup</button></a>
+                     <input type="submit" name="signup" id="signup" value="signup">
+                     <!--<button class="btn" type="button"> Signup</button> -->
                   </div>
                </form>
             </div>
